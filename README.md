@@ -14,5 +14,5 @@ library(ggplot2)
 
 
 
-![alt text](https://raw.githubusercontent.com/sanjaysingh765/Gene-Expression-Visualizer/main/www/Screenshot%20from%202021-05-11%2014-44-31.jpg?token=ACYJYDXQ75TJSQRK6VVILALATLKWY)
+![alt text](https://raw.githubusercontent.com/sanjaysingh765/Gene-Expression-Visualizer/main/www/Screenshot%20from%202021-05-11%2015-04-59.jpg?token=ACYJYDSOG7KX7ZXUTNTMSFDATLK5K)
 
