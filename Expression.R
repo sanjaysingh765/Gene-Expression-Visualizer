@@ -5,7 +5,7 @@ library(ggplot2)
 
 #expression data
 tissue <- read.delim("./data/cro_tissue.txt", stringsAsFactors = FALSE)
-JA <- read.delim("./data/JA_lab", stringsAsFactors = FALSE)
+JA <- read.delim("./data/MYC", stringsAsFactors = FALSE)
 
 # Dashboard and body formatting
 header <- dashboardHeader(title = "Gene expression visualizer", titleWidth = 450)
