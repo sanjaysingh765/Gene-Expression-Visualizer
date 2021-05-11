@@ -11,3 +11,8 @@ library(shinydashboard)
 library(reshape2)
 
 library(ggplot2)
+
+
+
+![alt text](www/Screenshot from 2021-05-11 14-44-31.jpg)
+
