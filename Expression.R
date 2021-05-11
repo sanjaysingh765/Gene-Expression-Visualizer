@@ -5,14 +5,14 @@ library(ggplot2)
 
 #expression data
 tissue <- read.delim("./data/cro_tissue.txt", stringsAsFactors = FALSE)
-JA <- read.delim("./data/MYC", stringsAsFactors = FALSE)
+PA <- read.delim("./data/PA_lab", stringsAsFactors = FALSE)
 
 # Dashboard and body formatting
 header <- dashboardHeader(title = "Gene expression visualizer", titleWidth = 450)
 sidebar <- dashboardSidebar(
   selectInput("dataset", "Dataset",
               c("Tissue" = "tissue",
-                "JA" = "ja")),
+                "pa" = "pa")),
     sidebarSearchForm(textId = "searchText", buttonId = "searchButton", 
                     label = "Search dataset", icon = shiny::icon("search")),
   br(),
@@ -52,8 +52,8 @@ server <- function(input, output, session) {
     if (input$dataset == "tissue"){
       edata  <- tissue
     }
-    else if (input$dataset == "ja"){
-      edata <- JA
+    else if (input$dataset == "pa"){
+      edata <- PA
     }
     return(edata)
   })
